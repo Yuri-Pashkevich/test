@@ -28,7 +28,7 @@ export const fetchData = async () => {
     //dollar exchange rate to BYN
     const exchangeRates = 2.6
 
-    //transform all data in new arrays with updated objects
+    //transformimg all data in new arrays with updated objects
     const transformData = ( names, data ) => {
         const newArr = data.map(item => {
             for(let key in names.B) {

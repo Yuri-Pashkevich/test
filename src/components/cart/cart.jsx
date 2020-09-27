@@ -8,7 +8,7 @@ export const Cart = ({ data, delItem }) => {
     const cartList = data.map((item, index) => {
 
         const { name, price } = item
-        
+
         return (
             <li className="list-group-item d-flex" key={maxId++}>
                 <span className="name">{name}</span>
