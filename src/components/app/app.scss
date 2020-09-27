@@ -1,0 +1,16 @@
+.app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+}
+.total-summ {
+    border: 1px solid rgb(255, 91, 91);
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 245, 245);
+}

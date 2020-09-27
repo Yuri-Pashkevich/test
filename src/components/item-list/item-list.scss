@@ -1,0 +1,24 @@
+.list-group-item {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.price {
+    margin-left: auto;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 251, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name {
+    margin-left: 20px;
+    width: 80%;
+}
+.btn-outline-success {
+    margin: 0 10px;
+}
