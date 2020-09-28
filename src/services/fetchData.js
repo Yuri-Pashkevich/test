@@ -38,7 +38,9 @@ export const fetchData = async () => {
                         id: item.T,
                         quantity: item.P,
                         price: Math.ceil(item.C * exchangeRates),
-                        group: names.G
+                        group: names.G,
+                        value: 1,
+                        newprice: Math.ceil(item.C * exchangeRates),
                     } 
                 }
             }
