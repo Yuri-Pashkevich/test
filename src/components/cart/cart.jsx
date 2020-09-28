@@ -13,7 +13,7 @@ export const Cart = ({ data, delItem, increase, decrease }) => {
             <li className="list-group-item d-flex" key={maxId++}>
                 <span className="name">{name}</span>
                 <button className="btn btn-danger" onClick={() => decrease(index)}>-</button>
-                <span className="cart-quantity">{value}</span>
+                <span className="cart-quantity">{value} шт.</span>
                 <button className="btn btn-success" onClick={() => increase(index)}>+</button>
                 <button
                     onClick={() => delItem(index)}
